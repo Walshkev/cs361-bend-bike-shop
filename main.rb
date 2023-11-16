@@ -2,7 +2,10 @@
 
 require_relative 'bike'
 
-bike = Bike.new(1, :pink, 99.99)
+cargo= Cargo.new(10)
+
+bike = Bike.new(1, :pink, 99.99, cargo)
+
 
 bike.add_cargo(:apples)
 bike.add_cargo(:water)
